@@ -1,0 +1,7 @@
+[user]
+	email = eliasnacher@gmail.com
+	name = Elias Nacher Fernandez
+[core]
+	eol = lf
+	autocrlf = input
+	whitespace = cr-at-eol

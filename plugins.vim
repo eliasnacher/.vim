@@ -1,0 +1,36 @@
+call plug#begin()
+ "Tree"
+ Plug 'scrooloose/nerdtree'
+ 
+ "Syntax"
+ Plug 'sheerun/vim-polyglot'
+
+ "Emmet"
+ Plug 'mattn/emmet-vim'
+ 
+ "Status Bar"
+ Plug 'maximbaz/lightline-ale'
+ Plug 'itchyny/lightline.vim'
+
+ "Themes"
+ Plug 'morhetz/gruvbox'
+ Plug 'shinchu/lightline-gruvbox.vim'
+
+ "Typings"
+ Plug 'jiangmiao/auto-pairs'
+ Plug 'alvan/vim-closetag'
+
+ "Finder"
+ Plug 'junegunn/fzf'
+ Plug 'junegunn/fzf.vim'
+
+ "Cursor"
+ Plug 'terryma/vim-multiple-cursors'
+ 
+ "Git"
+ Plug 'mhinz/vim-signify'
+
+ "Indent"
+ Plug 'yggdroot/indentline'
+
+call plug#end()

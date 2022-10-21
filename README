@@ -1,0 +1,7 @@
+Installatión process
+
+ - First, create a Symbolic Link from .vimrc to the Home Directory
+
+ - Open "vim" and execute ":PlugInstall"
+
+Now Vim is ready to execute.

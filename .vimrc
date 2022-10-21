@@ -1,0 +1,19 @@
+set number
+set numberwidth=1
+syntax on
+set showcmd
+set ruler
+set cursorline
+set encoding=utf-8
+set showmatch
+set sw=2
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set laststatus=2
+set noshowmode
+set bg=dark
+
+so ~/.vim/plugins.vim
+so ~/.vim/plugins-conf.vim

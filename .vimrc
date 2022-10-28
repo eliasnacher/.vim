@@ -13,7 +13,6 @@ set ignorecase
 set smartcase
 set laststatus=2
 set noshowmode
-set bg=dark
 
 so ~/.vim/plugins.vim
 so ~/.vim/plugins-conf.vim

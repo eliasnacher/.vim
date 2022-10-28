@@ -10,7 +10,7 @@ call plug#begin()
  Plug 'phpactor/phpactor'
  Plug 'phpactor/ncm2-phpactor'
  Plug 'neomake/neomake'
-
+ Plug 'tpope/vim-surround'
 
  "Emmet"
  Plug 'mattn/emmet-vim'
@@ -28,10 +28,6 @@ call plug#begin()
  Plug 'maximbaz/lightline-ale'
  Plug 'itchyny/lightline.vim'
 
- "Themes"
- Plug 'morhetz/gruvbox'
- Plug 'shinchu/lightline-gruvbox.vim'
-
  "Typings"
  Plug 'jiangmiao/auto-pairs'
  Plug 'alvan/vim-closetag'
@@ -48,5 +44,12 @@ call plug#begin()
 
  "Indent"
  Plug 'yggdroot/indentline'
+ 
+ "Tags"
+ Plug 'majutsushi/tagbar'
 
-call plug#end()
+ "Autocomplete"
+ Plug 'ycm-core/YouCompleteMe' 
+ "apt install build-essential cmake vim-nox python3-dev"
+
+ call plug#end()

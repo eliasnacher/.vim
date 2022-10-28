@@ -1,8 +1,8 @@
 call plug#begin()
- "Tree"
+ "Tree
  Plug 'scrooloose/nerdtree'
  
- "Syntax"
+ "Syntax
  Plug 'sheerun/vim-polyglot'
  Plug 'stephpy/vim-php-cs-fixer'
  Plug 'StanAngeloff/php.vim'
@@ -12,44 +12,46 @@ call plug#begin()
  Plug 'neomake/neomake'
  Plug 'tpope/vim-surround'
 
- "Emmet"
+ "Emmet
  Plug 'mattn/emmet-vim'
 
- "Comments"
+ "Comments
  Plug 'tpope/vim-commentary'
 
- "Substitute"
+ "Substitute
  Plug 'tpope/vim-abolish'
  
- "Project Config"
+ "Project Config
  Plug 'amiorin/vim-project'
 
- "Status Bar"
+ "Status Bar
  Plug 'maximbaz/lightline-ale'
  Plug 'itchyny/lightline.vim'
 
- "Typings"
+ "Typings
  Plug 'jiangmiao/auto-pairs'
  Plug 'alvan/vim-closetag'
 
- "Finder"
+ "Finder
  Plug 'junegunn/fzf'
  Plug 'junegunn/fzf.vim'
 
- "Cursor"
+ "Cursor
  Plug 'terryma/vim-multiple-cursors'
  
- "Git"
+ "Git
  Plug 'mhinz/vim-signify'
 
- "Indent"
+ "Indent
  Plug 'yggdroot/indentline'
  
- "Tags"
+ "Tags
  Plug 'majutsushi/tagbar'
 
  "Autocomplete"
- Plug 'ycm-core/YouCompleteMe' 
- "apt install build-essential cmake vim-nox python3-dev"
+ Plug 'ycm-core/YouCompleteMe' "apt install build-essential cmake vim-nox python3-dev
+
+ "Theme
+ Plug 'ayu-theme/ayu-vim'
 
  call plug#end()

@@ -49,7 +49,7 @@ call plug#begin()
  Plug 'majutsushi/tagbar'
 
  "Autocomplete"
- Plug 'ycm-core/YouCompleteMe' "apt install build-essential cmake vim-nox python3-dev
+ Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 
  "Theme
  Plug 'ayu-theme/ayu-vim'

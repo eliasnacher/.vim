@@ -12,6 +12,9 @@ call plug#begin()
  Plug 'neomake/neomake'
  Plug 'tpope/vim-surround'
 
+ "Debug
+ Plug 'vim-vdebug/vdebug'
+
  "Emmet
  Plug 'mattn/emmet-vim'
 

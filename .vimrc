@@ -16,3 +16,4 @@ set noshowmode
 
 so ~/.vim/plugins.vim
 so ~/.vim/plugins-conf.vim
+so ~/.vim/coc-conf.vim
